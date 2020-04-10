@@ -5,7 +5,7 @@ MIU DOM Library is a small set of JavaScript functions usable to manipulate the 
 **Usage:** 
 Add a new class value to a DOM element.
 
-**Exemple:**
+**Example:**
 
     // Adding the class activated to an element
     var elem = document.querySelector('#my-element');
@@ -15,7 +15,7 @@ Add a new class value to a DOM element.
 **Usage:** 
 Remove a class value on a given DOM element
 
-**Exemple:**
+**Example:**
 
     // Removing the class activated to an element
     var elem = document.querySelector('#my-element');
@@ -25,7 +25,7 @@ Remove a class value on a given DOM element
 **Usage:** 
 Check whether or not a given DOM element has a particular class value
 
-**Exemple:**
+**Example:**
 
     var elem = document.querySelector('#my-element');
     if(miuDomLib.hasClass(elem, 'activated')){
